@@ -33,7 +33,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: python news_pipelinev4.py
+        run: python news_pipelinev6.py
 
       - name: Commit and push updated digest and databases
         run: |
@@ -41,5 +41,5 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add daily_digest.md news_oltp.db news_olap.duckdb
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update daily news digest" && git push)
-
+EOF
 
