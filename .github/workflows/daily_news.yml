@@ -41,5 +41,5 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add daily_digest.md news_oltp.db news_olap.duckdb
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update daily news digest" && git push)
-EOF
+
 
