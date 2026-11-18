@@ -17,12 +17,13 @@ except ImportError:
 
 FEEDS = {
     "Technology": [
-        "https://feeds.bbci.co.uk/news/technology/rss.xml",
-        "https://techcrunch.com/feed/",
+#        "https://feeds.bbci.co.uk/news/technology/rss.xml",
+#        "https://techcrunch.com/feed/",
     ],
     "World News": [
-        "https://feeds.bbci.co.uk/news/world/rss.xml",
-        "https://feeds.npr.org/1001/rss.xml",
+#        "https://feeds.bbci.co.uk/news/world/rss.xml",
+#        "https://feeds.npr.org/1001/rss.xml",
+        "https://www.aljazeera.net/aljazeerarss/a7c186be-1baa-4bd4-9d80-a84db769f779/73d0e1b4-532f-45ef-b135-bfdff8b8cab9",
     ],
 }
 
