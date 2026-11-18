@@ -2,7 +2,7 @@ name: Daily News Compilation
 
 on:
   schedule:
-    - cron: '*/5 11-12 * * *'
+    - cron: '*/5 22-23 * * *'
       timezone: 'Asia/Riyadh'
   workflow_dispatch:
 
